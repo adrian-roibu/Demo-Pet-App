@@ -10,13 +10,27 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    var flowController: PetsFlowController?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        // create the main navigation controller to be used for our app
+        let navController = UINavigationController()
+        
+        // create a basic UIWindow and activate it
+        window = UIWindow(windowScene: windowScene)
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
+
+        // send that into our coordinator so that it can display view controllers
+        flowController = PetsFlowController(navigationController: navController)
+
+        // tell the coordinator to take over control
+        flowController?.start()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
