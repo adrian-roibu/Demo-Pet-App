@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Demo_Pet_App" customModuleProvider="target">
+            <connections>
+                <outlet property="petListTableView" destination="AOc-NX-Led" id="Tpx-z1-b3D"/>
+                <outlet property="view" destination="I34-D4-YUI" id="dRJ-iZ-Fsj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="I34-D4-YUI">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="170" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="AOc-NX-Led">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="U4R-JZ-sR7"/>
+                        <outlet property="delegate" destination="-1" id="9z7-i1-3TQ"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="qec-9G-Nd6"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="AOc-NX-Led" firstAttribute="top" secondItem="qec-9G-Nd6" secondAttribute="top" id="BRS-lq-iwr"/>
+                <constraint firstItem="qec-9G-Nd6" firstAttribute="trailing" secondItem="AOc-NX-Led" secondAttribute="trailing" id="ZzD-Jv-3P0"/>
+                <constraint firstItem="AOc-NX-Led" firstAttribute="leading" secondItem="qec-9G-Nd6" secondAttribute="leading" id="agQ-Po-e5w"/>
+                <constraint firstItem="qec-9G-Nd6" firstAttribute="bottom" secondItem="AOc-NX-Led" secondAttribute="bottom" id="fRA-wl-Mxs"/>
+            </constraints>
+            <point key="canvasLocation" x="-304" y="-491"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,102 @@
+{
+    "id": 70919617,
+    "organization_id": "IN64",
+    "url": "https://www.petfinder.com/cat/silver-mist-70919617/in/columbus/city-of-columbus-animal-care-services-in64/?referrer_id=2293b737-2bb0-4002-9539-19a88875a776&utm_source=api&utm_medium=partnership&utm_content=2293b737-2bb0-4002-9539-19a88875a776",
+    "type": "Cat",
+    "species": "Cat",
+    "breeds": {
+        "primary": "Domestic Long Hair",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+    },
+    "colors": {
+        "primary": "Gray & White",
+        "secondary": "Gray / Blue / Silver",
+        "tertiary": "White"
+    },
+    "age": "Adult",
+    "gender": "Female",
+    "size": "Medium",
+    "coat": "Long",
+    "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+    },
+    "environment": {
+        "children": true,
+        "dogs": true,
+        "cats": true
+    },
+    "tags": [
+        "Friendly",
+        "Affectionate",
+        "Playful"
+    ],
+    "name": "Silver Mist",
+    "description": "Silver Mist ( at her foster she is known as Silver Queen) is about 2 years old, spayed, current on...",
+    "organization_animal_id": null,
+    "photos": [
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/1/?bust=1709476844&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/1/?bust=1709476844&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/1/?bust=1709476844&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/1/?bust=1709476844"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/2/?bust=1709476844&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/2/?bust=1709476844&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/2/?bust=1709476844&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/2/?bust=1709476844"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/3/?bust=1709476845&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/3/?bust=1709476845&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/3/?bust=1709476845&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/3/?bust=1709476845"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/4/?bust=1709476845&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/4/?bust=1709476845&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/4/?bust=1709476845&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/4/?bust=1709476845"
+        }
+    ],
+    "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/1/?bust=1709476844&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/1/?bust=1709476844&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/1/?bust=1709476844&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/70919617/1/?bust=1709476844"
+    },
+    "videos": [],
+    "status": "adoptable",
+    "status_changed_at": "2024-03-03T14:40:47+0000",
+    "published_at": "2024-03-03T14:40:46+0000",
+    "distance": null,
+    "contact": {
+        "email": "animalcareservices@columbus.in.gov",
+        "phone": "(812) 376-2505",
+        "address": {
+            "address1": "2730 Arnold St",
+            "address2": null,
+            "city": "Columbus",
+            "state": "IN",
+            "postcode": "47203",
+            "country": "US"
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/v2/animals/70919617"
+        },
+        "type": {
+            "href": "/v2/types/cat"
+        },
+        "organization": {
+            "href": "/v2/organizations/in64"
+        }
+    }
+}

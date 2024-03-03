@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PetDetailsCollectionViewCell" id="ZGB-KP-rNL" customClass="PetDetailsCollectionViewCell" customModule="Demo_Pet_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="254"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pQa-Io-svt">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="254"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="petsPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="rht-uW-hxS" userLabel="imageView">
+                        <rect key="frame" x="0.0" y="0.0" width="403" height="254"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="rht-uW-hxS" secondAttribute="bottom" id="LPa-O7-WJx"/>
+                    <constraint firstAttribute="trailing" secondItem="rht-uW-hxS" secondAttribute="trailing" id="iXe-7a-opn"/>
+                    <constraint firstItem="rht-uW-hxS" firstAttribute="top" secondItem="pQa-Io-svt" secondAttribute="top" id="kvY-gq-FLo"/>
+                    <constraint firstItem="rht-uW-hxS" firstAttribute="leading" secondItem="pQa-Io-svt" secondAttribute="leading" id="xwJ-PT-m2n"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="403" height="254"/>
+            <connections>
+                <outlet property="petPhotoImageView" destination="rht-uW-hxS" id="b1H-7l-fcp"/>
+            </connections>
+            <point key="canvasLocation" x="100" y="31.690140845070424"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="petsPlaceholder" width="800" height="600"/>
+    </resources>
+</document>
