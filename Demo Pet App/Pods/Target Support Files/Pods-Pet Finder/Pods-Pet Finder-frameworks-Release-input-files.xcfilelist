@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-Demo Pet App/Pods-Demo Pet App-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-Pet Finder/Pods-Pet Finder-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
 ${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
