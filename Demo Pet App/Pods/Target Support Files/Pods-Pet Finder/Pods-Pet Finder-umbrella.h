@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Demo_Pet_AppVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Demo_Pet_AppVersionString[];
+FOUNDATION_EXPORT double Pods_Pet_FinderVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Pet_FinderVersionString[];
 

@@ -1,23 +1,23 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Demo Pet App' do
+target 'Pet Finder' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for Demo Pet App
 
-pod 'Alamofire'
-pod 'RxSwift'
-pod 'RxCocoa'
+pod 'Alamofire', '5.6.2'
+pod 'RxSwift', '6.5.0'
+pod 'RxCocoa', '6.5.0'
 pod 'SimpleKeychain', '~> 1.0'
-pod 'SDWebImage'
+pod 'SDWebImage', '5.14.0'
 
   target 'Demo Pet AppTests' do
     inherit! :search_paths
-    pod 'Alamofire'
-    pod 'RxSwift'
-    pod 'RxCocoa'
+    pod 'Alamofire', '5.6.2'
+    pod 'RxSwift', '6.5.0'
+    pod 'RxCocoa', '6.5.0'
   end
 
   target 'Demo Pet AppUITests' do
