@@ -33,7 +33,7 @@ final class HomeViewModelTests: XCTestCase {
     
     func test_get_pets() {
         
-        let expectation = XCTestExpectation(description: "Test mock fetch")
+        let expectation = XCTestExpectation(description: "Test mock fetch success")
         
         sut.pets.asObservable()
             .subscribe(onNext: { pets in
@@ -43,7 +43,6 @@ final class HomeViewModelTests: XCTestCase {
                     expectation.fulfill()
                 }
             }).disposed(by: disposeBag)
-        
         
         sut.retrievePetList()
 
@@ -59,7 +58,7 @@ final class HomeViewModelTests: XCTestCase {
         // Not authorized error
         let expectedError = NSError(domain: "Mock", code: 401)
         
-        let expectation = XCTestExpectation(description: expectedError.localizedDescription)
+        let expectation = XCTestExpectation(description: "Test mock fetch failure")
         
         sut.error.asObservable()
             .subscribe(onNext: { error in
@@ -75,5 +74,4 @@ final class HomeViewModelTests: XCTestCase {
         
         wait(for: [expectation], timeout: 0.1)
     }
-
 }

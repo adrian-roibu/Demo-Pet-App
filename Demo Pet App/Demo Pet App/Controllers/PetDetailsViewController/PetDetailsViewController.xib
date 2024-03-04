@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PetDetailsViewController" customModule="Demo_Pet_App" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PetDetailsViewController" customModule="Demo_Pet_AppTests" customModuleProvider="target">
             <connections>
                 <outlet property="ageLabel" destination="Lfq-ew-CJ6" id="MWB-D8-auM"/>
                 <outlet property="ageSeparatorDotLabel" destination="8Au-Y2-clR" id="BcH-Oz-3By"/>
@@ -52,7 +52,7 @@
                     <rect key="frame" x="20" y="379" width="353" height="226.33333333333337"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ua5-Jh-3xE">
-                            <rect key="frame" x="20" y="20" width="65.333333333333329" height="29"/>
+                            <rect key="frame" x="20" y="20" width="313" height="29"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -145,6 +145,7 @@
                         <constraint firstAttribute="trailing" secondItem="opt-YA-9SM" secondAttribute="trailing" constant="20" id="GA0-QU-dWX"/>
                         <constraint firstItem="9wj-h6-CFq" firstAttribute="leading" secondItem="eg9-uc-alN" secondAttribute="leading" constant="20" id="HU5-eh-jMG"/>
                         <constraint firstItem="MjE-Eb-59t" firstAttribute="top" secondItem="Ua5-Jh-3xE" secondAttribute="bottom" constant="20" id="K3q-U5-r2D"/>
+                        <constraint firstAttribute="trailing" secondItem="Ua5-Jh-3xE" secondAttribute="trailing" constant="20" id="Kec-ly-YyA"/>
                         <constraint firstAttribute="bottom" secondItem="sXE-5f-N0f" secondAttribute="bottom" constant="20" id="Lmn-VI-n1q"/>
                         <constraint firstItem="9wj-h6-CFq" firstAttribute="top" secondItem="Lfq-ew-CJ6" secondAttribute="bottom" constant="10" id="Od2-y0-FEk"/>
                         <constraint firstItem="Qpg-xX-fnk" firstAttribute="leading" secondItem="8Au-Y2-clR" secondAttribute="trailing" constant="10" id="P6A-xo-mJi"/>
