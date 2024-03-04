@@ -11,6 +11,7 @@ final class MockNetworkService: PetsNetworkService {
     // check if the viewModel really requests data from the PetsNetworkService
     var isGetPetsListCalled = false
     var completeClosure: (ResultCompletion<Pets>?)!
+    var completeAccessTokenClosure: ((Bool) -> Void)!
     
     var completePetList: Pets {
         let petListJson = Bundle.main.url(forResource: "Pets", withExtension: "json")
@@ -35,6 +36,6 @@ final class MockNetworkService: PetsNetworkService {
     }
     
     func fetchAccessToken(completion: @escaping (Bool) -> Void) {
-        print("kate")
+        completeAccessTokenClosure = completion
     }
 }
